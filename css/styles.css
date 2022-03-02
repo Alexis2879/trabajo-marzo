@@ -6,8 +6,8 @@
 
 body {
   font-family: "Heebo", sans-serif;
+  background-color: #99D4E8;
 }
-
 .header {
   display: flex;
   /* flex-start
