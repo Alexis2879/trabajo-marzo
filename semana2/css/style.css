@@ -1,0 +1,158 @@
+body{
+   font-family: helvetica;
+}
+
+h1 {
+    color: red;
+    background-color: turquoise;
+  }
+  h2 {
+      color: green;
+      background-color: violet;
+  }
+
+ 
+  
+  a{
+      color: rgb(250, 15, 54);
+      background-color: rgb(91, 50, 205);
+  }
+
+  #contenedor-uno {
+      background-color: tomato;
+  }
+
+  #contenedor-dos{
+      background-color: rgb(0, 255, 106);
+  }
+
+  /*para ´poder compartir estilos debemos usarclases ´clases´*/
+  
+  /*para poder acceder aun elemento que tiene un class usamos el . */
+  .contenedor-principal{
+      background-color: violet;
+      padding: 30px;
+  }
+
+  .btn-ingresar {
+      background-color: rgb(14, 139, 255);
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+  }
+
+ .btn-registro {
+    background-color: rgb(31, 153, 184);
+    color: royalblue;
+    padding: 10px;
+    border-radius: 8px;
+    border: none; 
+}
+
+/*sepan que cuando se usas clases se pueden compratir estilos*/
+ .btn-registro {
+    font-size: 25px;
+    background-color: red;
+  }
+
+  .contenedor-form {
+    /* border que cubra */
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+  }
+  
+  .contenedor-interno-form {
+    padding: 20px;
+    /* left: izquierda */
+    /* center: centro */
+    /* right: derecha */
+    /* esto lo de hace de forma horizontal */
+    text-align: center;
+  }
+  
+  .titulo-form {
+    color: rgb(14, 139, 255);
+    background-color: #fff;
+  }
+  
+  .input-form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+  }
+  
+  /* retos para el profe 
+  quiero que el iput del codigo 
+  mida 100px */
+  
+  .input-codigo {
+    width: 100px;
+  }
+  
+  .input-numero {
+    width: 275px;
+  }
+  
+  /* reto para ustedes denle estilos
+  al boton */
+  
+  .btn-crear-usuario {
+    background-color: rgb(248, 156, 35);
+    color: #000;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+  }
+    /*PSEEIDOCLASES*/
+    /*los elementos tienen propiedades internas por ejemplo el Hober
+    hober: es la propiedad que detecta cuando el mouse esta sobre el elemento, es decir estos estilo se aplican solo si el mouse esta sobre el elemento*/
+    .btn-ingresar:hover { 
+        background-color: rgb(9, 59, 55);
+        color: #000;
+        /*quita el subrayado*/
+        text-decoration: none;
+        padding: 50px;
+    }
+
+    /*los elementos como el  tienen PSEUDOCLASES como
+    link
+    visited
+    hober
+    active*/
+    
+    /* estas pseudoclases aplican para todos elementos de html*/
+
+    div:hover{
+        background-color: #f01;
+    }
+
+    .contenedor-interno-form h1 {
+        border: 2px solid #000;
+    }
+
+    .contenedor-interno-form p {
+        border: 2px solid #f01;
+    }
+    
+    /*first-child*/
+    /*busaca el primero elemento*/
+    /*<h1>/h1>*/
+    /*<h1>/h1>*/
+    /*<h1>/h1>*/
+    /*<h1>/h1>*/
+    /*<h1>/h1>*/
+    /*<h1>/h1>*/
+
+    h1:first-child {
+        color: purple;
+    }
+    input:first-of-type {
+        color: red;
+    }
+
+    h2:nth-child(0){
+        color: #000;
+    }
+
+    
