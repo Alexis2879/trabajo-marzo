@@ -5,6 +5,11 @@ const imgDetail = document.querySelector("#img-detail");
 const statusCharacter = document.querySelector("#status");
 const nameCharacter = document.querySelector("#name");
 
+const locationcharacter = document.querySelector("#location");
+const origin = document.querySelector("#origin");
+const episodes = document.querySelector("#episodes");
+const species = document.querySelector("#species");
+
 statusCharacter.innerHTML = objetoCharacter.status;
 nameCharacter.innerHTML = objetoCharacter.name;
 imgDetail.src = objetoCharacter.image;
